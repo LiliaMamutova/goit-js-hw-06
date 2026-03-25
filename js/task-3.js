@@ -5,7 +5,7 @@ class StringBuilder {
     }
 
     getValue() {
-        return this.#value; //.
+        return this.#value;
     }
 
     padEnd(str) {
@@ -29,4 +29,4 @@ console.log(builder.getValue());
 builder.padEnd("^");
 console.log(builder.getValue());
 builder.padBoth("=");
-console.log(builder.getValue()); 
+console.log(builder.getValue());
